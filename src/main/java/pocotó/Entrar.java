@@ -1,8 +1,7 @@
 package pocotó;
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class UsarLogin {
+public class Entrar {
     public static void main(String[] args) {
         Scanner olhar = new Scanner(System.in);
         CadastroLogin cadastro = new CadastroLogin();
