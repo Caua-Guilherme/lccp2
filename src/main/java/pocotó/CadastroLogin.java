@@ -9,7 +9,7 @@ public class CadastroLogin {
     List<String> logins = new ArrayList<>();
     List<String> senhas = new ArrayList<>();
 
-    public void cadastrar(String login, String senha) {
+    public void cadastrarLog(String login, String senha) {
         logins.add(login);
         senhas.add(senha);
     }

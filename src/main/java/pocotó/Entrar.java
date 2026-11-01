@@ -17,7 +17,7 @@ public class Entrar {
 
             System.out.println(senha);
 
-            cadastro.cadastrar(login, senha);
+            cadastro.cadastrarLog(login, senha);
 
             System.out.println("Deseja adicionar outro login?: ");
             novoLogin = olhar.nextLine();
