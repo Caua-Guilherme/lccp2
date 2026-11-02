@@ -30,7 +30,7 @@ public class Entrar {
         System.out.println("digite a senha a ser verificada: ");
         String senhaVerificar = olhar.nextLine();
 
-        if (cadastro.verificar(loginVerificar, senhaVerificar)){
+        if (cadastro.verificarLog(loginVerificar, senhaVerificar)){
             System.out.println("login realizado com sucesso");
            }
             else{

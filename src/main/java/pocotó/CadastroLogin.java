@@ -14,7 +14,7 @@ public class CadastroLogin {
         senhas.add(senha);
     }
 
-    public boolean verificar(String login, String senha) {
+    public boolean verificarLog(String login, String senha) {
         int posicao = logins.indexOf(login);
         if(posicao == -1){
             return false;
